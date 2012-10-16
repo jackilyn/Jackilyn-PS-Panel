@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpc defaultLocale="en_US" version="3" keySequence="51" currentLocale="en_US">
+  <product appid="PHSP" version="13" name="Photoshop CS6"/>
+  <target id="PHSP-13"/>
+  <ConfiguratorPanel name="Master Tools" width="244" height="118" minWidth="244" minHeight="118" maxWidth="244" maxHeight="118" init="doInit" close="doClose" persistent="true" normalIcon="res/res6_tools-icon.png" darkNormalIcon="res/res6_tools-icon-dark.png" extensionId="com.jackilyn.mastertools" extensionVersion="1.0.0" menuName="Master Tools" flyoutMenuAbout="$$$/Configurator/FlyoutMenu/about">
+    <onInit><![CDATA[]]></onInit>
+    <aboutBox><![CDATA[]]></aboutBox>
+    <extensionDescription><![CDATA[Master Tool Panel]]></extensionDescription>
+    <extensionAuthor><![CDATA[Jackilyn Hoxworth]]></extensionAuthor>
+    <onClose><![CDATA[]]></onClose>
+    <eventListeners>
+      <function id="doInit" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onInit"/>
+      </function>
+      <function id="doClose" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onClose"/>
+      </function>
+    </eventListeners>
+    <ps_tool _selectID="moveTool" _itemId="Tool-Move_Tool" icon="SP_Move_Lg_N" overIcon="SP_Move_Lg_N_D" toolTip="$$$/Tool-Move_Tool/desc" scriptID="Tool-Move_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###1" width="29" height="26" x="10" y="10">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="pathComponentSelectTool" _itemId="Tool-Path_Selection_Tool" icon="SP_Select_Lg_N" overIcon="SP_Select_Lg_N_D" toolTip="$$$/Tool-Path_Selection_Tool/desc" scriptID="Tool-Path_Selection_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###2" width="29" height="26" x="49" y="10">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="directSelectTool" _itemId="Tool-Direct_Selection_Tool" icon="SP_AnchorSelect_Lg_N" overIcon="SP_AnchorSelect_Lg_N_D" toolTip="$$$/Tool-Direct_Selection_Tool/desc" scriptID="Tool-Direct_Selection_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###3" width="29" height="26" x="88" y="10">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="marqueeRectTool" _itemId="Tool-Rectangular_Marquee_Tool" icon="SP_RectSelect_Lg_N" overIcon="SP_RectSelect_Lg_N_D" toolTip="$$$/Tool-Rectangular_Marquee_Tool/desc" scriptID="Tool-Rectangular_Marquee_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###8" width="29" height="26" x="127" y="10">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="rectangleTool" _itemId="Tool-Rectangle_Tool" icon="SP_Rectangle_Lg_N" overIcon="SP_Rectangle_Lg_N_D" toolTip="$$$/Tool-Rectangle_Tool/desc" scriptID="Tool-Rectangle_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###9" width="29" height="26" x="10" y="82">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="roundedRectangleTool" _itemId="Tool-Rounded_Rectangle_Tool" icon="SP_RoundedRectangle_Lg_N" overIcon="SP_RoundedRectangle_Lg_N_D" toolTip="$$$/Tool-Rounded_Rectangle_Tool/desc" scriptID="Tool-Rounded_Rectangle_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###10" width="29" height="26" x="49" y="82">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="ellipseTool" _itemId="Tool-Ellipse_Tool" icon="SP_Ellipse_Lg_N" overIcon="SP_Ellipse_Lg_N_D" toolTip="$$$/Tool-Ellipse_Tool/desc" scriptID="Tool-Ellipse_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###11" width="29" height="26" x="88" y="82">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="customShapeTool" _itemId="Tool-Custom_Shape_Tool" icon="SP_CustomShape_Lg_N" overIcon="SP_CustomShape_Lg_N_D" toolTip="$$$/Tool-Custom_Shape_Tool/desc" scriptID="Tool-Custom_Shape_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###12" width="29" height="26" x="127" y="82">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="typeCreateOrEditTool" _itemId="Tool-Horizontal_Type_Tool" icon="SP_TypeHoriz_Lg_N" overIcon="SP_TypeHoriz_Lg_N_D" toolTip="$$$/Tool-Horizontal_Type_Tool/desc" scriptID="Tool-Horizontal_Type_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###13" width="29" height="26" x="166" y="82">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="eyedropperTool" _itemId="Tool-Eyedropper_Tool" icon="SP_Sampler_Lg_N" overIcon="SP_Sampler_Lg_N_D" toolTip="$$$/Tool-Eyedropper_Tool/desc" scriptID="Tool-Eyedropper_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###14" width="29" height="26" x="205" y="82">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="cropTool" _itemId="Tool-Crop_Tool" icon="SP_Crop_Lg_N" overIcon="SP_Crop_Lg_N_D" toolTip="$$$/Tool-Crop_Tool/desc" scriptID="Tool-Crop_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###15" width="29" height="26" x="205" y="10">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="penTool" _itemId="Tool-Pen_Tool" icon="SP_VectorDraw_Lg_N" overIcon="SP_VectorDraw_Lg_N_D" toolTip="$$$/Tool-Pen_Tool/desc" scriptID="Tool-Pen_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###4" width="29" height="26" x="10" y="46">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="addKnotTool" _itemId="Tool-Add_Anchor_Point_Tool" icon="SP_AnchorAdd_Lg_N" overIcon="SP_AnchorAdd_Lg_N_D" toolTip="$$$/Tool-Add_Anchor_Point_Tool/desc" scriptID="Tool-Add_Anchor_Point_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###5" width="29" height="26" x="49" y="46">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="deleteKnotTool" _itemId="Tool-Delete_Anchor_Point_Tool" icon="SP_AnchorDel_Lg_N" overIcon="SP_AnchorDel_Lg_N_D" toolTip="$$$/Tool-Delete_Anchor_Point_Tool/desc" scriptID="Tool-Delete_Anchor_Point_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###6" width="29" height="26" x="88" y="46">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="convertKnotTool" _itemId="Tool-Convert_Point_Tool" icon="SP_ConvertAnchor_Lg_N" overIcon="SP_ConvertAnchor_Lg_N_D" toolTip="$$$/Tool-Convert_Point_Tool/desc" scriptID="Tool-Convert_Point_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###7" width="29" height="26" x="127" y="46">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="magicWandTool" _itemId="Tool-Magic_Wand_Tool" icon="SP_SimilarSelect_Lg_N" overIcon="SP_SimilarSelect_Lg_N_D" toolTip="$$$/Tool-Magic_Wand_Tool/desc" scriptID="Tool-Magic_Wand_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###16" width="29" height="26" x="166" y="10">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="bucketTool" _itemId="Tool-Paint_Bucket_Tool" icon="SP_Fill_Lg_N" overIcon="SP_Fill_Lg_N_D" toolTip="$$$/Tool-Paint_Bucket_Tool/desc" scriptID="Tool-Paint_Bucket_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###27" width="29" height="26" x="166" y="46">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="GrTl" _itemId="Tool-Gradient_Tool" icon="SP_Gradient_Lg_N" overIcon="SP_Gradient_Lg_N_D" toolTip="$$$/Tool-Gradient_Tool/desc" scriptID="Tool-Gradient_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###28" width="29" height="26" x="205" y="46">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+  </ConfiguratorPanel>
+</gpc>

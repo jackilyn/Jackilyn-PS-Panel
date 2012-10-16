@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+  <str name="Configurator/Attribute/visible/value###1" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###10" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###11" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###12" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###13" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###14" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###15" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###16" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###17" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###18" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###2" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###20" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###22" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###23" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###24" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###25" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###26" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###27" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###28" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###3" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###30" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###32" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###34" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###36" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###38" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###4" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###40" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###42" translate="yes">
+    <val>true</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###44" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###46" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###48" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###5" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###51" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###6" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###7" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###8" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###9" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Container/Canvas/desc" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Container/HDividedBox/desc" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Container/TabNavigator/desc" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Container/TabNavigator/dropListLabel###49" translate="yes">
+    <val>Select a page:</val>
+  </str>
+  <str name="Configurator/Container/VBox/desc" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/FlyoutMenu/about" translate="yes">
+    <val>About</val>
+  </str>
+  <str name="Configurator/key_###19" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###21" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###29" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###33" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###35" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###39" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###43" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###47" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/TabNavigator/Canvas###31" translate="yes">
+    <val>Tab 1</val>
+  </str>
+  <str name="Configurator/TabNavigator/Canvas###37" translate="yes">
+    <val>Tab 1</val>
+  </str>
+  <str name="Configurator/TabNavigator/Canvas###41" translate="yes">
+    <val>Tab 1</val>
+  </str>
+  <str name="Configurator/TabNavigator/Canvas###45" translate="yes">
+    <val>Tab 1</val>
+  </str>
+  <str name="Configurator/TabNavigator/Canvas###50" translate="yes">
+    <val>Tab 1</val>
+  </str>
+  <str name="Configurator/watermark/htmlText" translate="yes">
+    <val>&lt;a href='http://labs.adobe.com/technologies/configurator/' target='_blank'&gt;Created with Configurator&lt;/a&gt;</val>
+  </str>
+  <str name="Configurator/watermark/width" translate="yes">
+    <val>125</val>
+  </str>
+  <str name="Configurator/watermark/x" translate="yes">
+    <val>119</val>
+  </str>
+  <str name="Main-Edit-Transform-Rotate_90°_CW/desc" translate="yes">
+    <val>Rotate the currently selected layer(s) or selection 90 degrees clockwise</val>
+  </str>
+  <str name="Main-Edit-Transform-Rotate_90°_CW/name" translate="yes">
+    <val>Rotate 90° CW</val>
+  </str>
+  <str name="Main-File-Save_for_Web/desc" translate="yes">
+    <val>Save for Web</val>
+  </str>
+  <str name="Main-File-Save_for_Web/name" translate="yes">
+    <val>Save for Web</val>
+  </str>
+  <str name="Main-View-Actual_Pixels/desc" translate="yes">
+    <val>Actual Pixels</val>
+  </str>
+  <str name="Main-View-Actual_Pixels/name" translate="yes">
+    <val>Actual Pixels</val>
+  </str>
+  <str name="Main-View-Snap/desc" translate="yes">
+    <val>Snap</val>
+  </str>
+  <str name="Main-View-Snap/name" translate="yes">
+    <val>Snap</val>
+  </str>
+  <str name="Main-View-Snap_To-Grid/desc" translate="yes">
+    <val>Grid</val>
+  </str>
+  <str name="Main-View-Snap_To-Grid/name" translate="yes">
+    <val>Grid</val>
+  </str>
+  <str name="Main-View-Snap_To-Guides/desc" translate="yes">
+    <val>Guides</val>
+  </str>
+  <str name="Main-View-Snap_To-Guides/name" translate="yes">
+    <val>Guides</val>
+  </str>
+  <str name="Tool-Add_Anchor_Point_Tool/desc" translate="yes">
+    <val>Add Anchor Point Tool</val>
+  </str>
+  <str name="Tool-Convert_Point_Tool/desc" translate="yes">
+    <val>Convert Point Tool</val>
+  </str>
+  <str name="Tool-Crop_Tool/desc" translate="yes">
+    <val>Crop Tool</val>
+  </str>
+  <str name="Tool-Custom_Shape_Tool/desc" translate="yes">
+    <val>Custom Shape Tool</val>
+  </str>
+  <str name="Tool-Delete_Anchor_Point_Tool/desc" translate="yes">
+    <val>Delete Anchor Point Tool</val>
+  </str>
+  <str name="Tool-Direct_Selection_Tool/desc" translate="yes">
+    <val>Direct Selection Tool</val>
+  </str>
+  <str name="Tool-Ellipse_Tool/desc" translate="yes">
+    <val>Ellipse Tool</val>
+  </str>
+  <str name="Tool-Eyedropper_Tool/desc" translate="yes">
+    <val>Eyedropper Tool</val>
+  </str>
+  <str name="Tool-Gradient_Tool/desc" translate="yes">
+    <val>Gradient Tool</val>
+  </str>
+  <str name="Tool-Horizontal_Type_Tool/desc" translate="yes">
+    <val>Horizontal Type Tool</val>
+  </str>
+  <str name="Tool-Magic_Wand_Tool/desc" translate="yes">
+    <val>Magic Wand Tool</val>
+  </str>
+  <str name="Tool-Move_Tool/desc" translate="yes">
+    <val>Move Tool</val>
+  </str>
+  <str name="Tool-Paint_Bucket_Tool/desc" translate="yes">
+    <val>Paint Bucket Tool</val>
+  </str>
+  <str name="Tool-Path_Selection_Tool/desc" translate="yes">
+    <val>Path Selection Tool</val>
+  </str>
+  <str name="Tool-Pen_Tool/desc" translate="yes">
+    <val>Pen Tool</val>
+  </str>
+  <str name="Tool-Rectangle_Tool/desc" translate="yes">
+    <val>Rectangle Tool</val>
+  </str>
+  <str name="Tool-Rectangular_Marquee_Tool/desc" translate="yes">
+    <val>Rectangular Marquee Tool</val>
+  </str>
+  <str name="Tool-Rounded_Rectangle_Tool/desc" translate="yes">
+    <val>Rounded Rectangle Tool</val>
+  </str>
+</asf>
